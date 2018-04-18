@@ -12,15 +12,15 @@
 
 .nom{
   display: inline-block;
-  text-align: right;
-  font-size: 30px;
-  padding-right: 5px;
+ font-family: "Permanent Marker";
+  font-size: 25px;
+
 }
 
 #photoprofil{
   height: 120px;
   position: relative;
-  text-align: right;
+ margin-bottom: 20px;
   border-radius: 10px;
 }
 
@@ -34,8 +34,9 @@
 }
 
 #amis{
-  font-size: 20px;
-  margin-top: 50px;
+  font-size: 15px;
+
+  font-family: "Permanent Marker";
 }
 
 #nombreamis{
