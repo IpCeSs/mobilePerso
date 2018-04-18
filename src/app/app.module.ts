@@ -36,6 +36,7 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
 
 
 
+
 @NgModule({
   declarations: [
     MyApp,
@@ -45,6 +46,7 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
     TabsPage,
     SearchPage,
     LoginPage,
+
     GeoModalPage,
     CommentsPage
   ],
@@ -77,6 +79,7 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
     Geolocation,
     GeolocationProvider,
     Camera,
+
     ImagesProvider,
     CommentairesProvider,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
